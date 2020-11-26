@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cálculo - Arquitetura de Software"
+            android:gravity="center"
+            android:layout_marginTop="30sp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe a nota da prova 1"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="7sp"
+            />
+
+        <EditText
+            android:id="@+id/txtProva1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: 8.9)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe a prova 2"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="7sp"
+            />
+
+        <EditText
+            android:id="@+id/txtProva2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: 8.9)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe a nota da ado1"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="7sp"
+            />
+
+        <EditText
+            android:id="@+id/txtAdo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: 1.0)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe a nota da ado2"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="7sp"
+            />
+
+        <EditText
+            android:id="@+id/txtAdo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: 1.0)"
+            />
+
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar"
+            android:layout_marginTop="20sp"
+            />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            />
+    </LinearLayout>
+
+</ScrollView>

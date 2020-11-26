@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".InterfaceADMTI"></activity>
+        <activity android:name=".InterfaceAQ"></activity>
+        <activity android:name=".InterfaceDSM"></activity>
+        <activity android:name=".InterfaceGP"></activity>
+        <activity android:name=".InterfacePI4"></activity>
+        <activity android:name=".InterfaceTS"></activity>
+        <activity android:name=".Resultado"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
