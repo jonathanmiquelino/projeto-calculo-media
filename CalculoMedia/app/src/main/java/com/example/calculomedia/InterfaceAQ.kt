@@ -48,19 +48,19 @@ class InterfaceAQ : AppCompatActivity() {
         var msg = "";
         var campoNPreechido = false;
         if(txtProva1.text.isEmpty()){
-            msg = "PROVA1 "
+            msg = "-> PROVA1"
             campoNPreechido = true
         }
         if(txtProva2.text.isEmpty()){
-            msg +="PROVA2 "
+            msg +="\n-> PROVA2"
             campoNPreechido = true
         }
         if(txtAdo1.text.isEmpty()){
-            msg += "ADO1 "
+            msg += "\n-> ADO1"
             campoNPreechido = true
         }
         if(txtAdo2.text.isEmpty()){
-            msg += "ADO2 "
+            msg += "\n-> ADO2"
             campoNPreechido = true
         }
         if(campoNPreechido){

@@ -52,27 +52,27 @@ class InterfaceADMTI : AppCompatActivity() {
         var msg = "";
         var campoNPreechido = false;
         if(txtnota1.text.isEmpty()){
-            msg = "NOTA1 "
+            msg = "-> NOTA1 "
             campoNPreechido = true
         }
         if(txtnota2.text.isEmpty()){
-            msg +="NOTA2 "
+            msg +="\n-> NOTA2"
             campoNPreechido = true
         }
         if(txtnota3.text.isEmpty()){
-            msg += "NOTA3 "
+            msg += "\n-> NOTA3 "
             campoNPreechido = true
         }
         if(txtnota4.text.isEmpty()){
-            msg += "NOTA4 "
+            msg += "\n-> NOTA4 "
             campoNPreechido = true
         }
         if(txtnota5.text.isEmpty()){
-            msg += "NOTA5 "
+            msg += "\n-> NOTA5 "
             campoNPreechido = true
         }
         if(txtProjeto.text.isEmpty()){
-            msg += "Nota Projeto"
+            msg += "\n-> Nota Projeto"
             campoNPreechido = true
         }
         if(campoNPreechido){

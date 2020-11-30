@@ -41,6 +41,7 @@ class InterfacePI4 : AppCompatActivity() {
         txtnota4.text.clear()
         txtnota5.text.clear()
         txtnota6.text.clear()
+        txtnotaFinal.text.clear()
     }
 
     fun mostrarResultado(media: Double){
@@ -53,31 +54,31 @@ class InterfacePI4 : AppCompatActivity() {
         var msg = "";
         var campoNPreechido = false;
         if(txtnota1.text.isEmpty()){
-            msg = "NOTA1 "
+            msg = "-> NOTA1 "
             campoNPreechido = true
         }
         if(txtnota2.text.isEmpty()){
-            msg +="NOTA2 "
+            msg +="\n-> NOTA2 "
             campoNPreechido = true
         }
         if(txtnota3.text.isEmpty()){
-            msg += "NOTA3 "
+            msg += "\n-> NOTA3 "
             campoNPreechido = true
         }
         if(txtnota4.text.isEmpty()){
-            msg += "NOTA4 "
+            msg += "\n-> NOTA4 "
             campoNPreechido = true
         }
         if(txtnota5.text.isEmpty()){
-            msg += "NOTA5 "
+            msg += "\n-> NOTA5 "
             campoNPreechido = true
         }
         if(txtnota6.text.isEmpty()){
-            msg += "NOTA6 "
+            msg += "\n-> NOTA6 "
             campoNPreechido = true
         }
         if(txtnotaFinal.text.isEmpty()){
-            msg += "Nota Final "
+            msg += "\n-> Nota Final "
             campoNPreechido = true
         }
         if(campoNPreechido){

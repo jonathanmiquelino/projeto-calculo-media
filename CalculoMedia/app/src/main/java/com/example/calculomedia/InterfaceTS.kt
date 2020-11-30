@@ -51,19 +51,19 @@ class InterfaceTS : AppCompatActivity() {
         var msg = "";
         var campoNPreechido = false;
         if(txtAdo1.text.isEmpty()){
-            msg = "ADO1 "
+            msg = "-> ADO1 "
             campoNPreechido = true
         }
         if(txtAdo2.text.isEmpty()){
-            msg +="ADO2 "
+            msg +="\n-> ADO2 "
             campoNPreechido = true
         }
         if(txtP1.text.isEmpty()){
-            msg += "P1 "
+            msg += "\n-> P1 "
             campoNPreechido = true
         }
         if(txtP2.text.isEmpty()){
-            msg += "P2 "
+            msg += "\n-> P2 "
             campoNPreechido = true
         }
         if(campoNPreechido){

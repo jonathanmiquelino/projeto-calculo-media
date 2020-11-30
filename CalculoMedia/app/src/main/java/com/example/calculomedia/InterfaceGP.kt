@@ -48,15 +48,15 @@ class InterfaceGP : AppCompatActivity() {
         var msg = "";
         var campoNPreechido = false;
         if (txtProva.text.isEmpty()) {
-            msg = "Prova "
+            msg = "-> Prova "
             campoNPreechido = true
         }
         if (txtTestes.text.isEmpty()) {
-            msg += "Media de testes "
+            msg += "\n-> Media de testes "
             campoNPreechido = true
         }
         if (txtPcol.text.isEmpty()) {
-            msg += "Produção coletiva "
+            msg += "\n-> Produção coletiva "
             campoNPreechido = true
         }
         if (campoNPreechido) {
